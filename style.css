@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway:wght@100&family=Roboto+Serif:wght@100&display=swap');
+
+
+.card {
+    background-color: transparent;
+    border-radius: 5%;
+}
+
+.card-title{
+    font-family:'Dancing Script';
+    font-size:2em;
+    display: flex; 
+    flex-direction: column;
+    
+}
+
+.card-img-overlay {
+    margin-left: 65%;
+    text-size-adjust: 5%;
+    padding-top: 5%;
+    font-size: larger;
+}
+
+.card-img-top {
+    border-radius: 5%;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align:center;
+    
+}
+
+.btn:hover {
+    background: linear-gradient(#468ccf, #63b8ee);
+}
+
+@media (max-width: 600px) {
+
+    .card-img-overlay {
+        
+        margin-left: 65%;
+        font-size: smaller;
+        padding-top: 2%;
+    }
+    .card-title{
+        font-family:'Dancing Script';
+        font-size: 2em;
+        
+        
+    }
+
+    .card-text {
+        font-size: x-small;
+    }
+
+    
+} 
+
+@media (max-width: 900px) {
+    .card-img-overlay {
+       
+        
+        max-width: min-content;
+        margin-left: 65%;
+        font-size: smaller;
+        padding-top: 2%; 
+        
+    }
+}  
+
+@media only screen and (max-width: 480px) {
+    .card-img-overlay {
+    
+    text-align:center;
+    }
+}
+
+    
+
+    
+
+        
+        
+        
+    
+
+
+@media (max-width: 800px) {
+    .card-img-overlay {
+        
+        max-width: min-content;
+        margin-left: 60%;
+        font-size: smaller;
+        padding-top: 2%;
+        
+    }
+    .btn {
+        size-adjust: initial;
+        margin: auto;
+        max-width: min-content;
+    } 
+} 
+
